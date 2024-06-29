@@ -1,0 +1,581 @@
+<html>
+    <head>
+        <title>Product App</title>
+        <link rel="stylesheet" href="Land.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+    </head>
+    <body>
+        <section class="hero">
+            
+            <div class="Navbar">
+                <a href="#jfdsf"><i class="fa fa-headphones" style="font-size:48px;color:rgb(255, 255, 255)   "></i></a>
+                <h1 class="head">SoundSense</h1>
+                <a href="#home" class="home">Home</a>
+                <a href="#bene" class="bene">Benefits</a>
+                <a href="#Reviews" class="review" >Reviews</a>
+                <input type="button" value="Order Now" class="order"/> 
+                
+            </div> 
+            <div class="text">
+                <P>REinventing<br>Sound Experience</p><br>
+                    <input type="button" value="Order Now" class="order3"/> 
+            </div>
+          
+        </section>  
+        <section class="hero1">
+            <div class="feature1">
+                <i class="fa fa-music" style="font-size:48px;color:white;"></i> 
+                <h2>High Quality <br>Sound</h2>
+                <h3 class="lines">Clear vocals float on pulsating synths,<br>a vibrant yet calming soundscape.</h3>
+            </div>
+            <div class="feature2">
+                <i class="fa fa-bluetooth-b" aria-hidden="true" style="font-size: 48px;"></i>
+                <h2>Easy Wireless <br>Listenning</h2>
+                <h3 class="lines">Pocket your tunes, unleash the sound.<br>Go wireless, go anywhere.</h3>
+            </div>
+            <div class="feature3">
+                <i class="fa fa-bolt" aria-hidden="true" style="font-size: 48px;"></i>
+                <h2>Longer Battery<br>Life</h2>
+                <h3 class="lines">Power through playlists, not batteries.<br> Long-lasting wireless lets you listen longer.</h3>
+            </div>
+            <div class="feature4">
+                <i class="fa fa-headphones"  style="font-size: 48px;"></i>
+                <h2>Sleek updated<br>Design</h2>
+                <h3 class="lines">Pocket your tunes, unleash the sound.<br>Go wireless, go anywhere.</h3>
+            </div>
+        </section>
+        <section class="hero2">
+            <div class="sponsors">
+                <h2>As featured on:</h2>
+                <a href="#"><img src="C:\Users\faazf\Downloads\TUNE.png" class="tune"></a>
+                <a href="#"><img src="C:\Users\faazf\Downloads\EastFlow.png" class="east"></a>
+                <a href="#"><img src="C:\Users\faazf\Downloads\RockCk.png" class="rock"></a>
+                <a href="#"><img src="C:\Users\faazf\Downloads\instruweek.png" class="week"></a>
+                <a href="#"><img src="C:\Users\faazf\Downloads\wave.png" class="wave"></a>
+            </div>
+        </section>
+        <section class="hero3">
+            <img src="C:\Users\faazf\Downloads\hdlogo1.png" class="logo"></img>
+            <h1 class="logotext">
+                Music Like You've<br>
+                Never Heard Before</h1><br>
+            <div>
+            <h2 class="logotext2">Leave expectations at the door.<br> Dive into a sonic landscape<br> unlike anything you've ever encountered.</h2><br><br>
+            <input type="button" value="Order Now" class="order12">
+        </div>
+        </section>
+        <section class="reviews" id="Reviews">
+            <h2>Customer Reviews</h2>
+            <div class="carousel">
+                <div class="review-item">
+                    <p>"Amazing sound quality! The best headphones I've ever owned."</p>
+                    <p>- John Doe</p>
+                </div>
+                <div class="review-item">
+                    <p>"Great battery life and very comfortable to wear."</p>
+                    <p>- Jane Smith</p>
+                </div>
+                <div class="review-item">
+                    <p>"Wireless feature is a game changer. Highly recommend!"</p>
+                    <p>- Alice Johnson</p>
+                </div>
+                <div class="review-item">
+                    <p>"Stylish design and easy to use. Love it!"</p>
+                    <p>- Mark Brown</p>
+                </div>
+            </div>
+        </section>
+        <script>
+    $(document).ready(function(){
+    $('.carousel').slick({
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: true,
+        arrows: false,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
+});
+
+    </script> 
+    <section class="hero4">
+        <h1 class="con">Stay connected</h1>
+        <input type="text" placeholder="Email" class="mail"/>
+        <input type="button" value="Subscribe" class="order1"/> 
+    </section>
+    <section class="hero5">
+        <div class="footer">
+        <a href="#home" class="home1">HOME</a><br><br>
+        <a href="#bene" class="bene1">BENEFITS</a><br><br>
+        <a href="#Reviews" class="review1">REVIEWS</a><br>
+        <a href="#shipping-returns" class="shipping">SHIPPING & RETURNS</a><br><br>
+        <a href="#store-policy" class="policy">STORE POLICY</a><br><br>
+        <a href="#payment-methods" class="payment">PAYMENT METHODS</a><br>
+        <a href="#faq" class="faq">FAQ</a>
+    </div>
+</section>
+    <section class="hero6">
+    <div class="footer1">
+        <Footer class="Footer">
+            <a href="https://www.instagram.com/explore/tags/techie/?hl=en" class="ins"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+            <a href="https://www.linkedin.com/in/faaz-197370268/" class="li"><i class="fa fa-linkedin" style="font-size:36px"></i></a>
+            <a href="https://www.facebook.com/people/techiein/100063559345278/" class="fb"><i class="fa fa-facebook-f" style="font-size:36px"></i></a>
+            <a href="https://www.linkedin.com/in/faaz-197370268/" class="twi"><i class="fa fa-twitter-square" style="font-size:36px"></i></a>
+        </Footer>
+    </div>
+    </section>
+        
+    </body>
+</html>
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------css-----------------------------------------------------------------------------------------
+
+
+body
+{
+    font-family: Harlow ;
+    font-size: large;
+    overflow-x: hidden;
+
+      
+}
+.head
+{
+    color: white;
+    font-size:xx-large;
+}
+.Navbar 
+{
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    margin-top: -600px;
+}
+  
+.Navbar a 
+{
+    padding: 15px;
+    cursor: pointer;
+}
+.home
+{
+    margin-left:800px;
+    text-decoration: none;
+    color:rgb(169, 169, 169);
+}
+.home:hover
+{
+    color:rgb(215, 215, 215);
+}
+.bene
+{
+    margin-left: 9px;
+    text-decoration: none;
+    color:rgb(169, 169, 169);
+}
+.bene:hover
+{
+    color:rgb(215, 215, 215);
+}
+.review
+{
+    margin-left: 9px;
+    text-decoration: none;
+    color:rgb(169, 169, 169);
+}
+.review:hover
+{
+    color:rgb(215, 215, 215);
+}
+.order {
+    margin-left: 30px; /* Adjust as needed */
+    text-decoration: none;
+    background-color: #D0B48F;
+    border-color: #D0B48F;
+    font-weight: 100;
+    height: 35px;
+    width: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.hero 
+{
+    background-image: url("C:/Users/faazf/Downloads/hdbg.png"); 
+    background-size: cover; 
+    background-position: center center; 
+    height: 100vh; 
+    width:101.4%;
+    display:flex;
+    margin-top:-10px;
+    margin-left: -10px;
+    position: relative;
+    background-attachment: fixed;
+  
+}
+@font-face {
+    font-family:"harlow";
+    src: url('path/to/harlow.woff2') format('woff2'),
+         url('path/to/harlow.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal; 
+  }
+  
+  body {
+    font-family: 'Harlow', sans-serif; 
+  }
+  .hero h1 {
+    text-align: center;
+  }
+  .hero-content {
+    text-align: center;
+    color: white;
+}
+.hero1
+{
+    background-image: url("C:/Users/faazf/Downloads/hdbg2.png"); 
+    background-size: cover; 
+    background-position: center center; 
+    height: 100vh; 
+    width:101.4%;
+    display:flex;
+    margin-top:-10px;
+    margin-left: -10px;
+    background-attachment: fixed;
+
+    
+}
+.feature1
+{
+    color: white;
+    margin-left:90px;
+    margin-top: 280px;
+    font-size:medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.feature2
+{
+    color: white;
+    margin-left:90px;
+    margin-top: 100px;
+    font-size:medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.feature3
+{
+    color: white;
+    margin-left:90px;
+    margin-top: 300px;
+    font-size:medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.feature4
+{
+    color: white;
+    margin-left:90px;
+    margin-top: 100px;
+    font-size:medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.lines
+{
+    font-size: 15;
+    font-weight: lighter;
+}
+.hero2
+{
+    background-color:#ECECEC;
+    background-position: center center; 
+    height: 50vh; 
+    width:101.4%;
+    display:flex;
+    margin-top:-10px;
+    margin-left: -10px;
+    background-attachment: fixed;
+    height: 70%;
+}
+.sponsors
+{
+    font-weight:lighter;
+    margin-left:250px;
+    display: flex;
+    margin-top: 50px;
+    position: relative;
+    
+}
+.tune
+{
+    margin-left: 100px;
+}
+.east
+{
+    margin-left: 100px;
+}
+.rock
+{
+    margin-left: -900px;
+    margin-top: 300px;
+}
+.week
+{
+    margin-left: -400px;
+    margin-top: 300px;
+}
+.wave
+{
+    margin-left: 100px;
+    margin-top: 300px;
+}
+.hero3
+{
+    background-image: url("C:/Users/faazf/Downloads/hdlogo.png"); 
+    background-size: cover; 
+    background-color: #E3CBAA;
+    background-position: center center; 
+    height: 100vh; 
+    width:101.4%;
+    display:flex;
+    margin-top:-10px;
+    margin-left: -10px;
+    background-attachment: fixed;
+}
+.logo
+{
+    font-weight:lighter;
+    margin-left:120px;
+    display: flex;
+    margin-top: 50px;
+    position: relative;
+    margin-top: 200px;
+    width:40%;
+    height:50%;
+}
+.logotext
+{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:50px;
+    margin-left: 90px;
+    margin-top: 240px;
+}
+.logotext2
+{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter ;
+    font-size:20px;
+    margin-left: -460px;
+    margin-top: 400px;
+}
+.order12 {
+    text-decoration: none;
+    background-color: #D0B48F;
+    border-color: #D0B48F;
+    font-weight: 100;
+    height: 35px;
+    width: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left:-460px;
+}
+
+.reviews {
+    background-color: #ECECEC;
+    padding: 50px 20px;
+    text-align: center;
+    font-weight: lighter;
+    color:  black;
+}
+
+.reviews h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+ 
+    color: #D0B48F;
+}
+
+.carousel {
+    max-width: 1000px;
+    max-height:200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.review-item {
+    background: #ECECEC;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px #ECECEC;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing:border-box;
+    
+}
+
+
+.review-item p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.hero4
+{
+    background-size:auto; 
+    background-color:#2D2D2D;
+    background-position: center center; 
+    height: 50vh; 
+    width:101.4%;
+    display:flex;
+    margin-top:-10px;
+    margin-left: -10px;
+    background-attachment: fixed;
+}
+.con 
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+}
+.mail
+ {
+    height: 10%;
+    margin-top: 155px;
+    margin-left: 50px;
+    width: 400px;
+    background-color: transparent;
+    border: 2px solid #D0B48F; 
+    color: white;
+    padding: 10px; 
+    font-size: 1em;
+    outline: none;
+}
+
+
+.order1
+{
+    margin-left: 30px;
+    text-decoration: none;
+    background-color: #D0B48F;
+    border-color: #D0B48F;
+    font-weight:400;
+    height: 35px;
+    width:100px;
+    margin-top: 156px;
+    display: flex;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.hero5
+{
+    background-size:auto; 
+    background-color:#E3E3E3;
+    background-position: center center; 
+    height: 30vh; 
+    width:101.4%;
+    display:flex;
+    margin-top:-10px;
+    margin-left: -10px;
+    background-attachment: fixed;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%; 
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px; 
+}
+
+.left-group {
+    flex: 1;
+    text-align: left; 
+}
+
+.right-group {
+    flex: 1; 
+    text-align: right; 
+}
+
+
+.home1, .bene1, .review1 {
+    margin-top: 20px;
+}
+
+.shipping, .policy, .payment, .faq {
+    margin-top: 40px;
+}
+.footer1
+{
+    background-color: rgb(96, 96, 96);
+    border-radius:100px;
+    padding:2px;
+    justify-content:center;
+    display: flex;
+    background-size: cover;
+}
+.ins,.li,.fb,.twi
+{
+    padding:0px 40px;
+    margin:5px;
+    color:rgb(208, 208, 208);
+}
+.ins:hover
+{
+    color:black;
+}
+.li:hover
+{
+    color:black;
+
+}
+.fb:hover
+{
+    color:black;
+}
+.twi:hover
+{
+    color:black;
+}
+.text 
+{
+    display: flex;
+    margin-top: 200px;
+    margin-left:-1300px;
+    font-size: 80px;
+    color: #FFFFFF;
+}
+.order3
+{
+    margin-left: -650px;
+    text-decoration: none;
+    background-color:transparent;
+    border-color:white;
+    font-weight:400;
+    height: 45px;
+    width:150px;
+    margin-top: 320px;
+    display: flex;
+    color:white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+--------------------------------------------------------------------------------------------------------------javascript-------------------------------------------------------------------------------------------------------------------------------
